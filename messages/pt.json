@@ -1,0 +1,233 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Página inicial - Grupo We Hub",
+      "description": ""
+    },
+    "about": {
+      "title": "Sobre Nós - Grupo We Hub",
+      "description": ""
+    },
+    "contact": {
+      "title": "Contato - Grupo We Hub",
+      "description": ""
+    }
+  },
+  
+  "Header": {
+    "nav": {
+      "about": "Sobre nós",
+      "partners": "Parceiros",
+      "goals": "Objetivos",
+      "contact": "Contato"
+    }
+  },
+  "Footer": {
+    "tagline": "Uma holding com DNA digital. Transformamos ideias em negócios de sucesso no ambiente digital.",
+    "navCompany": {
+      "title": "Empresa",
+      "list": {
+        "about": "Sobre nós",
+        "career": "Carreira"
+      }
+    },
+    "contact": "Contato",
+    "location": "Rio de Janeiro, Brasil",
+    "rights": "Todos os direitos reservados.",
+    "navPolicies": {
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Uso",
+      "cookies": "Cookies"
+    }
+  },
+  "HomeHero": {
+    "title": {
+      "part1": "UMA HOLDING COM",
+      "part2": "DNA DIGITAL"
+    },
+    "subtitle": "Uma Internet. Um grupo. Infinitas possibilidades.",
+    "buttons": {
+      "knowMore": "Conheça Nossa História",
+      "seeResults": "Ver Nossos Resultados"
+    }
+  },
+  "HomePage": {
+    "about": {
+      "title": "O Grupo We Hub",
+      "subtitle": "Do digital para o mundo: o Grupo We Hub nasceu online.",
+      "paragraph": {
+        "1": "Desde o nosso primeiro projeto o Grupo We Hub foi digital. Somos especialistas em encontrar modelos de negócios lucrativos e eficazes que tiram o melhor do potencial de monetização da internet e das Redes Sociais.",
+        "2": "O Grupo We Hub nasceu no ambiente digital e se destaca por transformar tendências em negócios escaláveis, unindo inovação, dados e performance para gerar resultados reais. Com presença global, desenvolve ativos e soluções digitais que conectam marcas e pessoas, sempre com foco em crescimento sustentável e impacto."
+      },
+      "button": "Quem somos?"
+    },
+    "stats": {
+      "visits": "Visitas Mensais",
+      "projects": "Projetos Ativos",
+      "regions": "Regiões Ativas",
+      "employees": "Colaboradores"
+    },
+    "partners": {
+      "title": "Parceiros Que Confiam Em Nós"
+    },
+    "numbers": {
+      "title": "Nossos números",
+      "countries": "Países de Atuação",
+      "users": "Usuários impactados",
+      "growth": "Crescimento Médio",
+      "awards": "Prêmios Recebidos"
+    },
+    "goals": {
+      "inovation": {
+        "title": "Inovação Constante",
+        "subtitle": "Estar sempre na vanguarda das tendências digitais, desenvolvendo soluções que antecipam as necessidades do mercado."
+      },
+      "scalability": {
+        "title": "Escalabilidade Global",
+        "subtitle": "Expandir nossa presença internacional, levando nossas soluções para novos mercados e culturas."
+      },
+      "results": {
+        "title": "Resultados Sustentáveis",
+        "subtitle": "Gerar crescimento consistente e duradouro para nossos parceiros e stakeholders."
+      }
+    },
+    "feedbacks": {
+      "title": "Depoimentos",
+      "subtitle": "Veja o que nossos parceiros dizem sobre nós"
+    },
+    "contact": {
+      "title": "Entre em contato",
+      "subtitle": "Vamos conversar sobre como podemos ajudar seu negócio a crescer",
+      "location": "Rio de Janeiro, Brasil",
+      "form": {
+        "name": "Nome completo",
+        "telephone": "Celular",
+        "company": "Empresa",
+        "message": "Mensagem",
+        "messagePlaceholder": "Conte-nos sobre seu projeto ou necessidade...",
+        "button": "Enviar mensagem",
+        "buttonIsSubimitting": "Enviando"
+      }
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "title1": "ENTRE EM",
+      "title2": "CONTATO",
+      "subtitle": "Vamos conversar sobre como podemos ajudar seu negócio a crescer no ambiente digital"
+    },
+    "info": {
+      "title": "Fale Conosco",
+      "subtitle": "Estamos sempre prontos para ouvir suas ideias e ajudar a transformá-las em realidade",
+      "phone": "Telefone",
+      "address": "Endereço",
+      "country": "Brasil",
+      "hours": "Horário",
+      "monToFri": "Seg - Sex: 9h às 18h",
+      "saturday": "Sáb: 9h às 12h"
+    },
+    "form": {
+      "title": "Envie sua mensagem",
+      "description": "Preencha o formulário ao lado e nossa equipe entrará em contato com você em até 24 horas. Estamos ansiosos para conhecer seu projeto e discutir como podemos ajudar.",
+      "benefits1": "Resposta em até 24 horas",
+      "benefits2": "Consultoria gratuita",
+      "benefits3": "Proposta personalizada"
+    },
+    "map": {
+      "title": "Nossa localização",
+      "subtitle": "Estamos localizados no coração do Rio de Janeiro, próximo aos principais centros de negócios",
+      "label": "Mapa Interativo",
+      "address": "Rio de Janeiro / RJ, Brasil"
+    }
+  },
+  "ContactForm": {
+    "name": "Nome completo",
+    "telephone": "Celular",
+    "company": "Empresa",
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte-nos sobre seu projeto ou necessidade...",
+    "button": "Enviar mensagem",
+    "buttonIsSubimitting": "Enviando"
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "SOBRE O GRUPO",
+      "subtitle": "Conheça nossa história, valores e a equipe que transforma ideias em negócios digitais de sucesso"
+    },
+    "history": {
+      "title": "NOSSA HISTÓRIA",
+      "paragraph1": "O Grupo We Hub nasceu da visão de que o futuro dos negócios está no ambiente digital. Desde nossa fundação, fomos pioneiros em identificar e desenvolver modelos de negócios inovadores que aproveitam ao máximo o potencial da internet e das redes sociais.",
+      "paragraph2": "Nossa jornada começou com um projeto simples, mas com uma ambição grande: democratizar o acesso às oportunidades digitais e criar um ecossistema onde empresas de todos os tamanhos pudessem prosperar online.",
+      "paragraph3": "Hoje, somos reconhecidos como uma das principais holdings digitais do mercado, com presença internacional e um portfólio diversificado de empresas e projetos que impactam milhões de pessoas ao redor do mundo."
+    },
+    "timeline": {
+      "title": "NOSSA TRAJETÓRIA",
+      "2018": {
+        "title": "2018 - Fundação",
+        "text": "Início das operações com foco em projetos digitais inovadores e desenvolvimento de plataformas de mídia."
+      },
+      "2020": {
+        "title": "2020 - Expansão",
+        "text": "Crescimento exponencial durante a pandemia, com foco em soluções digitais para empresas em transformação."
+      },
+      "2022": {
+        "title": "2022 - Internacionalização",
+        "text": "Expansão para mercados internacionais, estabelecendo operações nos Estados Unidos e Europa."
+      },
+      "2024": {
+        "title": "2024 - Reconhecimento",
+        "text": "Consolidação como uma das principais holdings digitais do mercado, com múltiplos prêmios e reconhecimentos."
+      }
+    },
+    "values": {
+      "title": "NOSSOS VALORES",
+      "subtitle": "Os princípios que guiam todas as nossas decisões e ações no mercado digital",
+      "innovation": "Inovação",
+      "innovationText": "Buscamos constantemente novas formas de resolver problemas e criar valor através da tecnologia.",
+      "collaboration": "Colaboração",
+      "collaborationText": "Acreditamos no poder da colaboração e no trabalho em equipe para alcançar resultados extraordinários.",
+      "results": "Foco em Resultados",
+      "resultsText": "Orientamos todas as nossas ações por métricas claras e resultados mensuráveis.",
+      "global": "Visão Global",
+      "globalText": "Pensamos globalmente, mas agimos localmente, respeitando as particularidades de cada mercado.",
+      "transparency": "Transparência",
+      "transparencyText": "Mantemos comunicação clara e transparente com todos os nossos stakeholders.",
+      "excellence": "Excelência",
+      "excellenceText": "Buscamos a excelência em tudo que fazemos, desde o atendimento até a entrega final."
+    },
+    "team": {
+      "title": "NOSSA EQUIPE",
+      "subtitle": "Profissionais talentosos e apaixonados por tecnologia que fazem a diferença todos os dias",
+      
+      "ceo": {
+        "role": "CEO & Fundador",
+        "text": "Visionário e empreendedor serial com mais de 15 anos de experiência em negócios digitais."
+      },
+      "cto": {
+        "role": "CTO",
+        "text": "Especialista em tecnologia e inovação, responsável por liderar nossa estratégia técnica."
+      },
+      "cmo": {
+        "role": "CMO",
+        "text": "Expert em marketing digital e growth hacking, impulsiona nosso crescimento orgânico."
+      },
+      "cfo": {
+        "role": "CFO",
+        "text": "Responsável pela estratégia financeira e operações, garantindo crescimento sustentável."
+      }
+    },
+    "numbers": {
+      "title": "EM NÚMEROS",
+      "subtitle": "Resultados que comprovam nossa excelência",
+      "employees": "Colaboradores",
+      "countries": "Países",
+      "projects": "Projetos",
+      "awards": "Prêmios"
+    },
+    "cta": {
+      "title": "PRONTO PARA FAZER PARTE?",
+      "subtitle": "Junte-se a nós nessa jornada de transformação digital e faça parte do futuro dos negócios online.",
+      "button": "Entre em Contato"
+    }
+  }  
+}

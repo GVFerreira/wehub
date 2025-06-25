@@ -1,0 +1,232 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Home - We Hub Group",
+      "description": ""
+    },
+    "about": {
+      "title": "About Us - We Hub Group",
+      "description": ""
+    },
+    "contact": {
+      "title": "Get In Touch - We Hub Group",
+      "description": ""
+    }
+  },
+  "Header": {
+    "nav": {
+      "about": "About us",
+      "partners": "Partners",
+      "goals": "Goals",
+      "contact": "Get in touch"
+    }
+  },
+  "Footer": {
+    "tagline": "A holding company with a digital DNA. We turn ideas into successful digital businesses.",
+    "navCompany": {
+      "title": "Company",
+      "list": {
+        "about": "About Us",
+        "career": "Careers"
+      }
+    },
+    "contact": "Get in touch",
+    "location": "Rio de Janeiro, Brazil",
+    "rights": "All rights reserved.",
+    "navPolicies": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookies"
+    }
+  },
+  "HomeHero": {
+    "title": {
+      "part1": "A HOLDING WITH",
+      "part2": "A DIGITAL DNA"
+    },
+    "subtitle": "One Internet. One group. Infinite possibilities.",
+    "buttons": {
+      "knowMore": "Discover Our Story",
+      "seeResults": "See Our Results"
+    }
+  },
+  "HomePage": {
+    "about": {
+      "title": "The We Hub Group",
+      "subtitle": "From digital to the world: the We Hub Group was born online.",
+      "paragraph": {
+        "1": "Since our very first project, the We Hub Group has been digital. We specialize in identifying profitable and effective business models that maximize the monetization potential of the internet and social media.",
+        "2": "Born in the digital environment, the We Hub Group stands out by transforming trends into scalable businesses, combining innovation, data, and performance to deliver real results. With a global presence, it develops digital assets and solutions that connect brands and people, always focused on sustainable growth and impact."
+      },
+      "button": "Who are we?"
+    },
+    "stats": {
+      "visits": "Monthly Visits",
+      "projects": "Active Projects",
+      "regions": "Active Regions",
+      "employees": "Team Members"
+    },
+    "partners": {
+      "title": "Partners Who Trust Us"
+    },
+    "numbers": {
+      "title": "Our Numbers",
+      "countries": "Countries of Operation",
+      "users": "Users Reached",
+      "growth": "Average Growth",
+      "awards": "Awards Received"
+    },
+    "goals": {
+      "inovation": {
+        "title": "Constant Innovation",
+        "subtitle": "Always staying at the forefront of digital trends, developing solutions that anticipate market needs."
+      },
+      "scalability": {
+        "title": "Global Scalability",
+        "subtitle": "Expanding our international presence, bringing our solutions to new markets and cultures."
+      },
+      "results": {
+        "title": "Sustainable Results",
+        "subtitle": "Generating consistent and long-lasting growth for our partners and stakeholders."
+      }
+    },
+    "feedbacks": {
+      "title": "Testimonials",
+      "subtitle": "See what our partners say about us"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "subtitle": "Let’s talk about how we can help your business grow",
+      "location": "Rio de Janeiro, Brazil",
+      "form": {
+        "name": "Full name",
+        "telephone": "Phone",
+        "company": "Company",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project or needs...",
+        "button": "Send message",
+        "buttonIsSubimitting": "Sending"
+      }
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "title1": "GET IN TOUCH",
+      "title2": "TOUCH",
+      "subtitle": "Let’s talk about how we can help your business grow in the digital environment"
+    },
+    "info": {
+      "title": "Contact Us",
+      "subtitle": "We’re always ready to hear your ideas and help turn them into reality",
+      "phone": "Phone",
+      "address": "Address",
+      "country": "Brazil",
+      "hours": "Business Hours",
+      "monToFri": "Mon - Fri: 9am to 6pm",
+      "saturday": "Sat: 9am to 12pm"
+    },
+    "form": {
+      "title": "Send Your Message",
+      "description": "Fill out the form and our team will contact you within 24 hours. We're excited to hear about your project and how we can help.",
+      "benefits1": "Reply within 24 hours",
+      "benefits2": "Free consultation",
+      "benefits3": "Tailored proposal"
+    },
+    "map": {
+      "title": "Our Location",
+      "subtitle": "We are located in the heart of Rio, close to major business centers",
+      "label": "Interactive Map",
+      "address": "Rio de Janeiro / RJ, Brazil"
+    }
+  },
+  "ContactForm": {
+    "name": "Full name",
+    "telephone": "Phone",
+    "company": "Company",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project or needs...",
+    "button": "Send message",
+    "buttonIsSubimitting": "Sending"
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "ABOUT THE GROUP",
+      "subtitle": "Discover our history, values, and the team that turns ideas into successful digital businesses"
+    },
+    "history": {
+      "title": "Our History",
+      "paragraph1": "We Hub Group was born from the vision that the future of business lies in the digital environment. Since our foundation, we have been pioneers in identifying and developing innovative business models that fully leverage the internet and social media.",
+      "paragraph2": "Our journey began with a simple project but a big ambition: to democratize access to digital opportunities and create an ecosystem where businesses of all sizes could thrive online.",
+      "paragraph3": "Today, we are recognized as one of the leading digital holdings in the market, with an international presence and a diverse portfolio of companies and projects that impact millions of people around the world."
+    },
+    "timeline": {
+      "title": "OUR JOURNEY",
+      "2018": {
+        "title": "2018 - Foundation",
+        "text": "Started operations focusing on innovative digital projects and media platform development."
+      },
+      "2020": {
+        "title": "2020 - Expansion",
+        "text": "Exponential growth during the pandemic, focusing on digital solutions for businesses in transformation."
+      },
+      "2022": {
+        "title": "2022 - Internationalization",
+        "text": "Expansion into international markets, establishing operations in the United States and Europe."
+      },
+      "2024": {
+        "title": "2024 - Recognition",
+        "text": "Consolidated as one of the leading digital holdings, with multiple awards and recognitions."
+      }
+    },
+    "values": {
+      "title": "OUR VALUES",
+      "subtitle": "The principles that guide all our decisions and actions in the digital market",
+      "innovation": "Innovation",
+      "innovationText": "We constantly seek new ways to solve problems and create value through technology.",
+      "collaboration": "Collaboration",
+      "collaborationText": "We believe in the power of collaboration and teamwork to achieve extraordinary results.",
+      "results": "Results Focus",
+      "resultsText": "We guide all our actions by clear metrics and measurable outcomes.",
+      "global": "Global Vision",
+      "globalText": "We think globally but act locally, respecting the uniqueness of each market.",
+      "transparency": "Transparency",
+      "transparencyText": "We maintain clear and transparent communication with all our stakeholders.",
+      "excellence": "Excellence",
+      "excellenceText": "We strive for excellence in everything we do, from service to final delivery."
+    },
+    "team": {
+      "title": "OUR TEAM",
+      "subtitle": "Talented professionals passionate about technology who make a difference every day",
+      
+      "ceo": {
+        "role": "CEO & Founder",
+        "text": "Visionary and serial entrepreneur with over 15 years of experience in digital business."
+      },
+      "cto": {
+        "role": "CTO & COO",
+        "text": "Technology and innovation specialist responsible for leading our technical strategy."
+      },
+      "cmo": {
+        "role": "CMO",
+        "text": "Expert in digital marketing and growth hacking, driving our organic growth."
+      },
+      "cfo": {
+        "role": "CFO",
+        "text": "Responsible for financial strategy and operations, ensuring sustainable growth."
+      }
+    },
+    "numbers": {
+      "title": "BY THE NUMBERS",
+      "subtitle": "Results that prove our excellence",
+      "employees": "Employees",
+      "countries": "Countries",
+      "projects": "Projects",
+      "awards": "Awards"
+    },
+    "cta": {
+      "title": "READY TO JOIN US?",
+      "subtitle": "Join us on this digital transformation journey and be part of the future of online business.",
+      "button": "Get in Touch"
+    }
+  }
+}
