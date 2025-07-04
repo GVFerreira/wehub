@@ -218,7 +218,7 @@ export default function ContactPage() {
       </section>
 
       {/* Mapa */}
-      <section className="py-20 bg-white dark:bg-gray-900">
+      <section className="py-20 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">{t("map.title")}</h2>
@@ -227,11 +227,11 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="bg-gray-200 dark:bg-gray-800 rounded-3xl h-96 flex items-center justify-center">
-            <div className="text-center">
+          <div className="bg-[url(/background/map.png)] bg-cover bg-center  bg-slate-50/40 rounded-3xl h-96 flex items-center justify-center">
+            <div className="text-center w-full h-full flex flex-col items-center backdrop-blur-sm hover:backdrop-blur-none transition-all ease-in justify-center bg-black/40 rounded-3xl">
               <MapPin className="w-16 h-16 text-yellow-500 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("map.label")}</h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <h3 className="text-2xl font-bold text-white mb-2">{t("map.label")}</h3>
+              <p className="text-gray-300">
                 {t("map.address")}
               </p>
             </div>

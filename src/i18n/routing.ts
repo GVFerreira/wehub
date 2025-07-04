@@ -12,6 +12,11 @@ export const routing = defineRouting({
     '/contato': {
       en: '/get-in-touch',
       pt: '/contato'
-    }
+    },
+    '/politica-privacidade': {
+      en: '/privacy-policy',
+      pt: '/politica-privacidade'
+    },
+    '/cookies': '/cookies'
   }
 })

@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { Play, ChevronDown } from "lucide-react"
-import ReactPlayer from "react-player"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 
@@ -69,23 +68,7 @@ export default function Hero() {
   return (
     <section ref={heroRef} className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <ReactPlayer
-          url="https://website-ukvistos-minio.usmpj4.easypanel.host/website/6035855_Business_Office_1920x1080.mp4"
-          playing
-          loop
-          muted
-          width="100%"
-          height="100%"
-          className="!absolute !inset-0 !w-full !h-full"
-          style={{ objectFit: "cover" }}
-          config={{
-            file: {
-              attributes: {
-                style: { objectFit: "cover", width: "100%", height: "100%" },
-              },
-            },
-          }}
-        />
+        <HeroVideo />
         {/* Overlay para melhorar a legibilidade do texto */}
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-800/70 to-orange-800/70 z-10"></div>
       </div>
@@ -126,5 +109,30 @@ export default function Hero() {
         </a>
       </div>
     </section>
+  )
+}
+
+export function HeroVideo() {
+  useEffect(() => {
+    const video = document.querySelector('video')
+
+    if (video) {
+      video.play().catch((error) => {
+        console.log('Video playback failed:', error)
+      })
+    }
+  }, [])
+
+  return (
+    <video
+      className="absolute w-full min-h-full z-[-10] inset-0 scale-[3] md:scale-[1] sm:scale-[0.5]"
+      loop
+      autoPlay
+      muted
+      playsInline
+      preload="auto"
+    >
+      <source src="/background/hero-video.mp4" type="video/mp4" />
+    </video>
   )
 }

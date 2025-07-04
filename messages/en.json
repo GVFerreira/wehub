@@ -11,6 +11,14 @@
     "contact": {
       "title": "Get In Touch - We Hub Group",
       "description": ""
+    },
+    "privacy": {
+      "title": "Privacy Policy - We Hub Group",
+      "description": ""
+    },
+    "cookies": {
+      "title": "Cookies Policy - We Hub Group",
+      "description": ""
     }
   },
   "Header": {
@@ -27,7 +35,8 @@
       "title": "Company",
       "list": {
         "about": "About Us",
-        "career": "Careers"
+        "career": "Careers",
+        "contact": "Contact"
       }
     },
     "contact": "Get in touch",
@@ -135,8 +144,8 @@
     "map": {
       "title": "Our Location",
       "subtitle": "We are located in the heart of Rio, close to major business centers",
-      "label": "Interactive Map",
-      "address": "Rio de Janeiro / RJ, Brazil"
+      "label": "Rio de Janeiro - Brazil",
+      "address": "Av. Embaixador Abelardo Bueno, 600 - Recreio dos Bandeirantes, 22780-160"
     }
   },
   "ContactForm": {

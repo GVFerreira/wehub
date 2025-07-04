@@ -30,6 +30,9 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale} className={montserrat.className} suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/assets/favicon.png" type="image/png" sizes="512x512" />
+      </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <NextIntlClientProvider>{children}</NextIntlClientProvider>

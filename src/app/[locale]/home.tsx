@@ -20,6 +20,7 @@ import Feedbacks from "./components/feedbacks"
 import Hero from "./components/hero"
 import { useTranslations } from "next-intl"
 import ContactForm from "./components/form-contact"
+import Image from "next/image"
 
 export default function WeHubHomepage() {
   const t = useTranslations("HomePage")
@@ -31,7 +32,8 @@ export default function WeHubHomepage() {
   const goalsRef = useRef<HTMLElement>(null)
   const feedbacksRef = useRef<HTMLElement>(null)
 
-  const partners = ["Google", "Meta", "Amazon", "Microsoft", "Shopify", "HubSpot", "Salesforce", "Adobe"]
+  const partners = ["google.svg", "meta.svg", "amazon.svg", "samsung.svg", "joinads.svg", "activeview.svg", "hubspot.svg", "taboola.svg"]
+  const partnersBlack = ["google_black.svg", "meta_black.svg", "amazon_black.svg", "samsung_black.svg", "joinads_black.svg", "activeview_black.svg", "hubspot_black.svg", "taboola_black.svg"]
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger)
@@ -284,13 +286,13 @@ export default function WeHubHomepage() {
               {t("partners.title")}
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
             {partners.map((partner, index) => (
               <div
                 key={index}
-                className="partner-item bg-white dark:bg-white/20 p-6 rounded-2xl shadow-lg flex items-center justify-center"
+                className="partner-item bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center max-h-40"
               >
-                <span className="text-xl font-bold text-gray-700 dark:text-gray-300">{partner}</span>
+                <Image src={`/partners/${partner}`} alt={partner} width={300} height={300} className="w-2/3 aspect-[4/3] object-contain"/>
               </div>
             ))}
           </div>
