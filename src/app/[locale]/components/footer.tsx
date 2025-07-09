@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400">+55 21 99999-9999</span>
+                <span className="text-gray-400">+55 (21) 96675-6416</span>
               </li>
               <li className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-yellow-500" />
@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-xs">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 mb-4 md:mb-0">© {new Date().getFullYear()} We Hub. {t("rights")}</p>
+            <p className="text-gray-400 mb-4 md:mb-0 flex items-center gap-2 ">© {new Date().getFullYear()} We Hub. {t("rights")} Developed by <Image src="/gvf.svg" alt="GVF" width={60} height={20} className="h-4 w-auto" /></p>
             <div className="flex space-x-6">
               <Link href="/politica-privacidade" className="text-gray-400 hover:text-white transition-colors">
                 {t("navPolicies.privacy")}

@@ -4,6 +4,7 @@ import type React from "react"
 import { Montserrat } from 'next/font/google'
 import { notFound } from "next/navigation"
 import { ThemeProvider } from "../../components/theme-provider"
+import { Toaster } from "@/components/ui/sonner"
 
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { routing } from '@/i18n/routing'
@@ -36,6 +37,7 @@ export default async function LocaleLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

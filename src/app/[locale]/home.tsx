@@ -257,19 +257,19 @@ export default function WeHubHomepage() {
               <p className="text-black/80 font-semibold flex justify-center items-center gap-2">{t("stats.visits")} <MousePointer /></p>
             </div>
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="500">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="21">
                 0
               </div>
               <p className="text-black/80 font-semibold flex justify-center items-center gap-2">{t("stats.projects")} <Presentation /></p>
             </div>
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="50">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="32">
                 0
               </div>
               <p className="text-black/80 font-semibold flex justify-center items-center gap-2">{t("stats.regions")} <Globe /></p>
             </div>
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="100">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="27">
                 0
               </div>
               <p className="text-black/80 font-semibold flex justify-center items-center gap-2">{t("stats.employees")} <User /></p>
@@ -405,7 +405,7 @@ export default function WeHubHomepage() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="bg-white dark:bg-gray-800 rounded-full p-2"><Phone className="size-6 text-yellow-500" /></span>
-                <span className="text-gray-400">+55 21 99999-9999</span>
+                <span className="text-gray-400">+55 (21) 96675-6416</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="bg-white dark:bg-gray-800 rounded-full p-2"><MapPin className="size-6 text-yellow-500" /></span>

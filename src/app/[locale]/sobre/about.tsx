@@ -217,9 +217,9 @@ export default function AboutPage() {
                 <Calendar className="w-10 h-10 text-black" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2018.title")}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2014.title")}</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  {t("timeline.2018.text")}
+                  {t("timeline.2014.text")}
                 </p>
               </div>
             </div>
@@ -229,9 +229,9 @@ export default function AboutPage() {
                 <TrendingUp className="w-10 h-10 text-black" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2020.title")}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2021.title")}</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  {t("timeline.2020.text")}
+                  {t("timeline.2021.text")}
                 </p>
               </div>
             </div>
@@ -241,9 +241,9 @@ export default function AboutPage() {
                 <Globe className="w-10 h-10 text-black" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2022.title")}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2023.title")}</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  {t("timeline.2022.text")}
+                  {t("timeline.2023.text")}
                 </p>
               </div>
             </div>
@@ -253,9 +253,9 @@ export default function AboutPage() {
                 <Award className="w-10 h-10 text-black" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2024.title")}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t("timeline.2025.title")}</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  {t("timeline.2024.text")}
+                  {t("timeline.2025.text")}
                 </p>
               </div>
             </div>
@@ -358,10 +358,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
               </div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Daniel Vivone</h3>
-              <p className="text-yellow-500 font-semibold mb-3">{t("team.ceo.role")}</p>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">
-                {t("team.ceo.text")}
-              </p>
+              <p className="text-yellow-500 font-semibold mb-3">CEO</p>
             </div>
 
             <div className="team-member text-center">
@@ -373,11 +370,8 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Sergio Ferreira</h3>
-              <p className="text-yellow-500 font-semibold mb-3">{t("team.cto.role")}</p>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">
-                {t("team.cto.text")}
-              </p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Mateus Henrique</h3>
+              <p className="text-yellow-500 font-semibold mb-3">CMO</p>
             </div>
 
             <div className="team-member text-center">
@@ -389,11 +383,8 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Carlos Oliveira</h3>
-              <p className="text-yellow-500 font-semibold mb-3">{t("team.cmo.role")}</p>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">
-                {t("team.cmo.text")}
-              </p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Sergio Pecanha</h3>
+              <p className="text-yellow-500 font-semibold mb-3">CFO</p>
             </div>
 
             <div className="team-member text-center">
@@ -405,11 +396,8 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Ana Costa</h3>
-              <p className="text-yellow-500 font-semibold mb-3">{t("team.cfo.role")}</p>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">
-                {t("team.cfo.text")}
-              </p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Eduardo Leal</h3>
+              <p className="text-yellow-500 font-semibold mb-3">COO</p>
             </div>
           </div>
         </div>
@@ -425,19 +413,19 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="100">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="27">
                 0
               </div>
               <p className="text-black/80 font-semibold">{t("numbers.employees")}</p>
             </div>
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="25">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="32">
                 0
               </div>
               <p className="text-black/80 font-semibold">{t("numbers.countries")}</p>
             </div>
             <div className="text-center">
-              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="500">
+              <div className="stats-number text-4xl md:text-6xl font-bold text-black mb-2" data-target="21">
                 0
               </div>
               <p className="text-black/80 font-semibold">{t("numbers.projects")}</p>

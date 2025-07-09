@@ -4,7 +4,7 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { Mail, Phone, MapPin, Clock, CheckCircle } from "lucide-react"
+import { Mail, Phone, MapPin, CheckCircle } from "lucide-react"
 import Header from "@/app/[locale]/components/header"
 import Footer from "@/app/[locale]/components/footer"
 import { useTranslations } from "next-intl"
@@ -135,14 +135,13 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex flex-wrap justify-center items-center max-w-5xl mx-auto gap-20">
             <div className="info-item text-center">
               <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Mail className="w-10 h-10 text-black" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Email</h3>
               <p className="text-gray-300 mb-2">contato@wehub.com</p>
-              <p className="text-gray-300">comercial@wehub.com</p>
             </div>
 
             <div className="info-item text-center">
@@ -150,8 +149,7 @@ export default function ContactPage() {
                 <Phone className="w-10 h-10 text-black" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">{t("info.phone")}</h3>
-              <p className="text-gray-300 mb-2">+55 21 9999-9999</p>
-              <p className="text-gray-300">+55 21 3333-3333</p>
+              <p className="text-gray-300 mb-2">+55 (21) 96675-6416</p>
             </div>
 
             <div className="info-item text-center">
@@ -159,17 +157,9 @@ export default function ContactPage() {
                 <MapPin className="w-10 h-10 text-black" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">{t("info.address")}</h3>
-              <p className="text-gray-300 mb-2">Rio de Janeiro / RJ</p>
-              <p className="text-gray-300">{t("info.country")}</p>
-            </div>
-
-            <div className="info-item text-center">
-              <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Clock className="w-10 h-10 text-black" />
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">{t("info.hours")}</h3>
-              <p className="text-gray-300 mb-2">{t("info.monToFri")}</p>
-              <p className="text-gray-300">{t("info.saturday")}</p>
+              <p className="text-gray-300 mb-2">Rio de Janeiro / {t("info.country")}</p>
+              <p className="text-gray-300 mb-2">Minas Gerais / {t("info.country")}</p>
+              <p className="text-gray-300">Florida / USA</p>
             </div>
           </div>
         </div>
@@ -230,9 +220,19 @@ export default function ContactPage() {
           <div className="bg-[url(/background/map.png)] bg-cover bg-center  bg-slate-50/40 rounded-3xl h-96 flex items-center justify-center">
             <div className="text-center w-full h-full flex flex-col items-center backdrop-blur-sm hover:backdrop-blur-none transition-all ease-in justify-center bg-black/40 rounded-3xl">
               <MapPin className="w-16 h-16 text-yellow-500 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-white mb-2">{t("map.label")}</h3>
-              <p className="text-gray-300">
-                {t("map.address")}
+              <h3 className="text-2xl font-bold text-white mb-2">Rio de Janeiro / {t("info.country")}</h3>
+              <p className="text-gray-200 mb-4">
+                Avenida Vice Presidente Jose Alencar, 1400. Rio de Janeiro - RJ. CEP: 22775-033
+              </p>
+
+              <h3 className="text-2xl font-bold text-white mb-2">Minas Gerais / {t("info.country")}</h3>
+              <p className="text-gray-200 mb-4">
+                Rua Dom Silvério, 126 Loja 7. Contagem - MG. CEP: 32041-450
+              </p>
+
+              <h3 className="text-2xl font-bold text-white mb-2">Florida / USA</h3>
+              <p className="text-gray-200">
+                11903 Vermillion Avenue, Forida / USA. ZIP Code: 34786.
               </p>
             </div>
           </div>
