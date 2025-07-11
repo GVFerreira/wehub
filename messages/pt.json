@@ -39,8 +39,7 @@
         "contact": "Contato"
       }
     },
-    "contact": "Contato",
-    "location": "Rio de Janeiro, Brasil",
+    "location": "Localizações",
     "rights": "Todos os direitos reservados.",
     "navPolicies": {
       "privacy": "Política de Privacidade",
@@ -237,5 +236,107 @@
       "subtitle": "Junte-se a nós nessa jornada de transformação digital e faça parte do futuro dos negócios online.",
       "button": "Entre em Contato"
     }
-  }  
+  },
+  "CookiesPage": {
+    "title": "Política de Cookies",
+    "company": "WE HUB LLC.",
+    "lastUpdated": "Última atualização: 04 de julho de 2025",
+    "sections": {
+      "1": {
+        "title": "1. O que são cookies?",
+        "text": "Cookies são pequenos arquivos de texto armazenados no seu dispositivo (computador, tablet, celular) quando você acessa um site. Eles ajudam a melhorar sua experiência de navegação, tornando o uso do site mais eficiente e personalizado."
+      },
+      "2": {
+        "title": "2. Como usamos cookies?",
+        "text": "No site grupowehub.com, utilizamos cookies para:",
+        "list": [
+          "Garantir o funcionamento correto do site;",
+          "Personalizar o conteúdo e lembrar suas preferências;",
+          "Coletar dados estatísticos anônimos para melhorar nossos serviços."
+        ]
+      },
+      "3": {
+        "title": "3. Tipos de cookies que utilizamos",
+        "list": [
+          "Cookies essenciais: necessários para o funcionamento básico do site, como manter a sessão ativa e garantir a segurança;",
+          "Cookies de desempenho: coletam informações sobre o uso do site para que possamos entender como ele é utilizado e melhorar sua performance;",
+          "Cookies de funcionalidade: lembram suas preferências para facilitar o uso do site."
+        ]
+      },
+      "4": {
+        "title": "4. Consentimento e controle",
+        "text1": "Ao continuar navegando em nosso site, você concorda com o uso de cookies conforme descrito nesta política.",
+        "text2": "Você pode gerenciar suas preferências e excluir cookies através das configurações do seu navegador, caso deseje."
+      },
+      "5": {
+        "title": "5. Alterações nesta política",
+        "text": "Podemos atualizar esta Política de Cookies a qualquer momento. As alterações serão publicadas nesta página com a data da última atualização."
+      },
+      "6": {
+        "title": "6. Contato",
+        "text": "Se tiver dúvidas sobre esta Política de Cookies, entre em contato conosco pelo e-mail:",
+        "email": "contato@grupowehub.com"
+      }
+    }
+  },
+  "PrivacyPage": {
+    "title": "Política de Privacidade",
+    "company": "WE HUB LLC.",
+    "lastUpdated": "Última atualização: 04 de julho de 2025",
+    "intro": "A WE HUB LLC., operadora do site grupowehub.com, está comprometida em proteger a sua privacidade e garantir a segurança dos seus dados pessoais. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos as suas informações ao utilizar nossos serviços.",
+    "sections": {
+      "1": {
+        "title": "1. Informações que Coletamos",
+        "text": "Coletamos os dados pessoais que você nos fornece ao preencher nosso formulário de contato, tais como:",
+        "list": [
+          "Nome completo;",
+          "Endereço de e-mail;",
+          "Número de telefone;",
+          "Empresa em que trabalha;",
+          "Mensagem."
+        ],
+        "text2": "Além disso, coletamos informações técnicas automaticamente por meio de cookies durante a navegação em nosso site."
+      },
+      "2": {
+        "title": "2. Como Usamos Seus Dados",
+        "text": "Utilizamos os seus dados para:",
+        "list": [
+          "Enviar comunicações relacionadas ao serviço prestado por nossa empresa;",
+          "Melhorar a sua experiência em nosso site por meio do uso de cookies."
+        ]
+      },
+      "3": {
+        "title": "3. Armazenamento e Retenção de Dados",
+        "text": "Seus dados pessoais são armazenados de forma segura por um período máximo de 2 dias após a conclusão do serviço, após o qual são permanentemente excluídos."
+      },
+      "4": {
+        "title": "4. Compartilhamento de Dados",
+        "text": "Garantimos que NÃO compartilhamos, vendemos ou alugamos seus dados pessoais para terceiros."
+      },
+      "5": {
+        "title": "5. Segurança dos Dados",
+        "text": "Adotamos medidas técnicas e organizacionais para proteger seus dados contra acessos não autorizados, alterações, divulgação ou destruição."
+      },
+      "6": {
+        "title": "6. Seus Direitos",
+        "text": "Você pode solicitar a qualquer momento:",
+        "list": [
+          "Acesso às informações que temos sobre você;",
+          "Correção de dados incorretos;",
+          "Exclusão dos seus dados, respeitando o prazo legal e operacional de armazenamento."
+        ],
+        "text2": "Para exercer seus direitos ou tirar dúvidas sobre a privacidade, entre em contato:",
+        "email": "contato@grupowehub.com"
+      },
+      "7": {
+        "title": "7. Alterações nesta Política",
+        "text": "Podemos atualizar esta Política de Privacidade a qualquer momento, sendo as mudanças publicadas nesta página com a data da última atualização."
+      },
+      "8": {
+        "title": "8. Contato",
+        "text": "Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade, entre em contato conosco.",
+        "email": "contato@grupowehub.com"
+      }
+    }
+  }
 }

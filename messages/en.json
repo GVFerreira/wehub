@@ -39,8 +39,7 @@
         "contact": "Contact"
       }
     },
-    "contact": "Get in touch",
-    "location": "Rio de Janeiro, Brazil",
+    "location": "Location",
     "rights": "All rights reserved.",
     "navPolicies": {
       "privacy": "Privacy Policy",
@@ -236,6 +235,107 @@
       "title": "READY TO JOIN US?",
       "subtitle": "Join us on this digital transformation journey and be part of the future of online business.",
       "button": "Get in Touch"
+    }
+  },
+  "CookiesPage": {
+    "title": "Cookie Policy",
+    "company": "WE HUB LLC.",
+    "lastUpdated": "Last updated: July 4, 2025",
+    "sections": {
+      "1": {
+        "title": "1. What are cookies?",
+        "text": "Cookies are small text files stored on your device (computer, tablet, mobile) when you visit a website. They help improve your browsing experience by making the website more efficient and personalized."
+      },
+      "2": {
+        "title": "2. How do we use cookies?",
+        "text": "On the grupowehub.com website, we use cookies to:",
+        "list": [
+          "Ensure the proper functioning of the website;",
+          "Customize content and remember your preferences;",
+          "Collect anonymous statistical data to improve our services."
+        ]
+      },
+      "3": {
+        "title": "3. Types of cookies we use",
+        "list": [
+          "Essential cookies: required for the basic functioning of the site, such as keeping the session active and ensuring security;",
+          "Performance cookies: collect information about how the site is used so we can improve its performance;",
+          "Functionality cookies: remember your preferences to make the site easier to use."
+        ]
+      },
+      "4": {
+        "title": "4. Consent and control",
+        "text1": "By continuing to browse our website, you agree to the use of cookies as described in this policy.",
+        "text2": "You can manage your preferences and delete cookies through your browser settings if you wish."
+      },
+      "5": {
+        "title": "5. Changes to this policy",
+        "text": "We may update this Cookie Policy at any time. Changes will be posted on this page with the date of the latest update."
+      },
+      "6": {
+        "title": "6. Contact",
+        "text": "If you have questions about this Cookie Policy, please contact us at:",
+        "email": "contato@grupowehub.com"
+      }
+    }
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "company": "WE HUB LLC.",
+    "lastUpdated": "Last updated: July 4, 2025",
+    "intro": "WE HUB LLC., the operator of the grupowehub.com website, is committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy explains how we collect, use, store, and protect your information when using our services.",
+    "sections": {
+      "1": {
+        "title": "1. Information We Collect",
+        "text": "We collect the personal data you provide when filling out our contact form, such as:",
+        "list": [
+          "Full name;",
+          "Email address;",
+          "Phone number;",
+          "Company you work for;",
+          "Message."
+        ],
+        "text2": "In addition, we collect technical information automatically through cookies while you browse our site."
+      },
+      "2": {
+        "title": "2. How We Use Your Data",
+        "text": "We use your data to:",
+        "list": [
+          "Send communications related to the services provided by our company;",
+          "Improve your experience on our website through the use of cookies."
+        ]
+      },
+      "3": {
+        "title": "3. Data Storage and Retention",
+        "text": "Your personal data is securely stored for a maximum period of 2 days after the service is completed, after which it is permanently deleted from our systems."
+      },
+      "4": {
+        "title": "4. Data Sharing",
+        "text": "We guarantee that we DO NOT share, sell, or rent your personal data to third parties."
+      },
+      "5": {
+        "title": "5. Data Security",
+        "text": "We adopt technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction."
+      },
+      "6": {
+        "title": "6. Your Rights",
+        "text": "You may request at any time:",
+        "list": [
+          "Access to the information we hold about you;",
+          "Correction of incorrect data;",
+          "Deletion of your data, respecting legal and operational retention periods."
+        ],
+        "text2": "To exercise your rights or ask questions about privacy, contact us:",
+        "email": "contato@grupowehub.com"
+      },
+      "7": {
+        "title": "7. Changes to This Policy",
+        "text": "We may update this Privacy Policy at any time. Changes will be posted on this page with the date of the last update."
+      },
+      "8": {
+        "title": "8. Contact",
+        "text": "If you have any questions or concerns about this Privacy Policy, please contact us."
+      }
     }
   }
 }

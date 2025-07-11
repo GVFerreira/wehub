@@ -71,34 +71,34 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-200 dark:border-gray-700">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link
-                href="#sobre"
+              <I18Link 
+                href="/sobre"
                 className="block px-3 py-2 text-gray-700 dark:text-gray-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t("nav.about")}
-              </Link>
+              </I18Link>
               <Link
-                href="#parceiros"
+                href="/#parceiros"
                 className="block px-3 py-2 text-gray-700 dark:text-gray-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t("nav.partners")}
               </Link>
               <Link
-                href="#objetivos"
+                href="/#objetivos"
                 className="block px-3 py-2 text-gray-700 dark:text-gray-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t("nav.goals")}
               </Link>
-              <Link
-                href="#contato"
+              <I18Link
+                href="/contato"
                 className="block px-3 py-2 text-gray-700 dark:text-gray-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t("nav.contact")}
-              </Link>
+              </I18Link>
             </div>
           </div>
         )}

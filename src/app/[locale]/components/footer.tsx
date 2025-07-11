@@ -1,6 +1,6 @@
 'use client'
 
-import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { Instagram, Linkedin, Mail, Phone } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 import Image from "next/image"
@@ -11,10 +11,10 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white pt-16 pb-8 border-t border-t-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
-          <div className="md:col-span-2">
+        <div className="grid md:grid-cols-5 gap-8 mb-12">
+          <div>
             <Image src="/assets/logotipo-white.png" alt="Grupo We Hub" width={150} height={30} />
-            <p className="text-gray-400 text-lg leading-relaxed mb-6 max-w-md">
+            <p className="text-gray-400 text-sm leading-relaxed mb-3 max-w-md">
               {t("tagline")}
             </p>
             <div className="flex space-x-4">
@@ -32,10 +32,24 @@ export default function Footer() {
               >
                 <span className="text-black font-bold"><Instagram /></span>
               </a>
+              <a
+                href="mailto:contato@grupowehub.com"
+                target="_blank"
+                className="size-10 rounded-full bg-yellow-500 flex items-center justify-center hover:bg-yellow-600 transition-colors"
+              >
+                <span className="text-black font-bold"><Mail /></span>
+              </a>
+              <a
+                href="tel:+5521966756416"
+                target="_blank"
+                className="size-10 rounded-full bg-yellow-500 flex items-center justify-center hover:bg-yellow-600 transition-colors"
+              >
+                <span className="text-black font-bold"><Phone /></span>
+              </a>
             </div>
           </div>
 
-          <div>
+          <div className="md:ml-10">
             <h3 className="text-xl font-bold mb-6 text-white">{t("navCompany.title")}</h3>
             <ul className="space-y-3">
               <li>
@@ -57,21 +71,28 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-6 text-white">{t("contact")}</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400">contato@grupowehub.com</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400">+55 (21) 96675-6416</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400">{t("location")}</span>
-              </li>
-            </ul>
+            <h3 className="text-xl font-bold mb-6">Brazil</h3>
+            <p className="flex flex-col text-gray-400 text-sm gap-1">
+              <span>Av. Vice Pres. José Alencar, 1400</span>
+              <span>Jacarepaguá</span>
+              <span>Rio de Janeiro/RJ - 22775-033</span>
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold mb-6">Brazil</h3>
+            <p className="flex flex-col text-gray-400 text-sm gap-1">
+              <span>R. Dom Silvério, 126</span>
+              <span>Loja 7, Centro</span>
+              <span>Contagem/MG - 32041-450</span>
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold mb-6">USA</h3>
+            <p className="flex flex-col text-gray-400 text-sm gap-1">
+              <span>11903 Vermillion Avenue</span>
+              <span>Windermere</span>
+              <span>Orlando/FL - 34786</span>
+            </p>
           </div>
         </div>
 

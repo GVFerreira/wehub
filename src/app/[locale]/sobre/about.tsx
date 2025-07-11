@@ -351,7 +351,7 @@ export default function AboutPage() {
             <div className="team-member text-center">
               <div className="relative mb-6">
                 <img
-                  src="/daniel.jpeg"
+                  src="/daniel.png"
                   alt="CEO"
                   className="w-48 h-48 rounded-full mx-auto object-cover"
                 />
@@ -364,8 +364,8 @@ export default function AboutPage() {
             <div className="team-member text-center">
               <div className="relative mb-6">
                 <img
-                  src="/sergio.jpeg"
-                  alt="CTO"
+                  src="/mateus.png"
+                  alt="CMO"
                   className="w-48 h-48 rounded-full mx-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
@@ -377,8 +377,8 @@ export default function AboutPage() {
             <div className="team-member text-center">
               <div className="relative mb-6">
                 <img
-                  src="/carlos.jpg"
-                  alt="CMO"
+                  src="/sergio.jpeg"
+                  alt="CFO"
                   className="w-48 h-48 rounded-full mx-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>
@@ -390,8 +390,8 @@ export default function AboutPage() {
             <div className="team-member text-center">
               <div className="relative mb-6">
                 <img
-                  src="/ana.jpg"
-                  alt="CFO"
+                  src="/eduardo.png"
+                  alt="COO"
                   className="w-48 h-48 rounded-full mx-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 to-transparent rounded-full"></div>

@@ -54,11 +54,11 @@ export default function Feedbacks() {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 md:p-6">
               <div className="shadow-lg bg-gradient-to-r from-yellow-500 to-orange-500 p-8 rounded-3xl h-full flex flex-col justify-between">
                 <div className="flex items-center gap-6 mb-6">
-                  <img
+                  {/* <img
                     src={feedback.avatar || "/placeholder.svg"}
                     alt={feedback.name}
                     className="w-16 h-16 rounded-full object-cover"
-                  />
+                  /> */}
                   <div>
                     <h3 className="text-xl font-bold text-black">{feedback.name}</h3>
                     <p className="text-black/80">{feedback.role}</p>
