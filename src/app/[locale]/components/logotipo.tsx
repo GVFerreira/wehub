@@ -11,8 +11,9 @@ export default function Logotype(){
       src={theme === 'dark' ? '/assets/logotipo-white.png' : '/assets/logotipo-black.png'}
       alt="We Hub"
       className="h-14 w-auto"
-      width={600}
-      height={600}
+      width={1000}
+      height={1000}
+      quality={100}
     /> 
   )
 }
