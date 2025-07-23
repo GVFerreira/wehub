@@ -10,7 +10,7 @@ export default function Logotype(){
     <Image
       src={theme === 'dark' ? '/assets/logotipo-white.png' : '/assets/logotipo-black.png'}
       alt="We Hub"
-      className="h-14 w-auto"
+      className="h-14 xl:h-20 w-auto"
       width={1000}
       height={1000}
       quality={100}
