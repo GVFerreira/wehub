@@ -73,8 +73,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-6">Brazil</h3>
             <p className="flex flex-col text-gray-400 text-sm gap-1">
-              <span>Av. Vice Pres. José Alencar, 1400</span>
-              <span>Jacarepaguá</span>
+              <span>Av. João Cabral de Mello Neto, 850</span>
+              <span>Barra da Tijuca</span>
               <span>Rio de Janeiro/RJ - 22775-033</span>
             </p>
           </div>

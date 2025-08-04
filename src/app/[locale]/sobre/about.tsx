@@ -377,7 +377,7 @@ export default function AboutPage() {
             <div className="team-member text-center">
               <div className="relative mb-6">
                 <img
-                  src="/sergio.jpeg"
+                  src="/sergio.png"
                   alt="CFO"
                   className="w-48 h-48 rounded-full mx-auto object-cover"
                 />

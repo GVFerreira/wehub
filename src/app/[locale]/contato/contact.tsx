@@ -222,7 +222,7 @@ export default function ContactPage() {
               <MapPin className="w-16 h-16 text-yellow-500 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-white mb-2">Rio de Janeiro / {t("info.country")}</h3>
               <p className="text-gray-200 mb-4">
-                Avenida Vice Presidente Jose Alencar, 1400. Rio de Janeiro - RJ. CEP: 22775-033
+                Avenida João Cabral de Mello Neto, 850. Rio de Janeiro - RJ - CEP: 22775-033
               </p>
 
               <h3 className="text-2xl font-bold text-white mb-2">Minas Gerais / {t("info.country")}</h3>

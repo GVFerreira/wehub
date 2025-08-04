@@ -6,7 +6,7 @@ import path from 'path'
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "gvfwebdesign@gmail.com",
+    user: process.env.FROM_EMAIL,
     pass: process.env.GOOGLE_APP_PASSWORD,
   },
 })
