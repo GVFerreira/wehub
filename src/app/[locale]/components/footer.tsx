@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-6">Brazil</h3>
+            <h3 className="text-xl font-bold mb-6">Rio de Janeiro</h3>
             <p className="flex flex-col text-gray-400 text-sm gap-1">
               <span>Av. João Cabral de Mello Neto, 850</span>
               <span>Barra da Tijuca</span>
@@ -79,7 +79,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-6">Brazil</h3>
+            <h3 className="text-xl font-bold mb-6">Minas Gerais</h3>
             <p className="flex flex-col text-gray-400 text-sm gap-1">
               <span>R. Dom Silvério, 126</span>
               <span>Loja 7, Centro</span>
@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-xs">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 mb-4 md:mb-0 flex items-center gap-2 ">© {new Date().getFullYear()} We Hub. {t("rights")} Developed by <Image src="/gvf.svg" alt="GVF" width={60} height={20} className="h-4 w-auto" /></p>
+            <p className="text-gray-400 mb-4 md:mb-0 flex items-center gap-2 ">WE HUB LLC. © {new Date().getFullYear()} We Hub LLC. {t("rights")} Developed by <Image src="/gvf.svg" alt="GVF" width={60} height={20} className="h-4 w-auto" /></p>
             <div className="flex space-x-6">
               <Link href="/politica-privacidade" className="text-gray-400 hover:text-white transition-colors">
                 {t("navPolicies.privacy")}

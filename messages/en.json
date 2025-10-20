@@ -30,7 +30,7 @@
     }
   },
   "Footer": {
-    "tagline": "A holding company with a digital DNA. We turn ideas into successful digital businesses.",
+    "tagline": "A holding company with digital DNA. We turn ideas into successful digital businesses.",
     "navCompany": {
       "title": "Company",
       "list": {
@@ -50,7 +50,7 @@
   "HomeHero": {
     "title": {
       "part1": "A HOLDING WITH",
-      "part2": "A DIGITAL DNA"
+      "part2": "DIGITAL DNA"
     },
     "subtitle": "One Internet. One group. Infinite possibilities.",
     "buttons": {

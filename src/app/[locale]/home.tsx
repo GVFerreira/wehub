@@ -236,7 +236,7 @@ export default function WeHubHomepage() {
             <div className="relative">
               <div className="aspect-[16/14] w-full bg-gradient-to-br from-yellow-100 to-orange-100 dark:from-yellow-500/20 dark:to-orange-300/10 rounded-3xl p-8 flex items-center justify-center">
                 <img
-                  src="/about-us.jpg"
+                  src="/we-hub.avif"
                   alt="Equipe We Hub"
                   className="h-full w-full object-cover rounded-2xl"
                 />
